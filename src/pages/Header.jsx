@@ -1,30 +1,31 @@
 import React from 'react'
-import Janela from '../pages/Header.jsx'
+import IconeJanela from '../public/IconeJanela.png'
 
 export default function Header() {
   return (
     <div>
-        <img src= {Janela} alt="" />
+        <img src= {IconeJanela} alt="icone janela do" width={170} />
         
         <div>
         </div>
-        <nav className=''>            
-            <ul>
-                <a href="" className='text-color bg-space-blue,'>Inicio</a>
-            </ul>
-            <ul>
+        
+        <nav className='text-space-blue font-kulim'>  
+        <ul>
+            <a href="">Inicio</a>
+        </ul>          
+        <ul>
                 <a href="">Funcionamento</a>
-            </ul>
-            <ul>
+         </ul>
+         <ul>
                 <a href="">Materiais</a>
-                
-                </ul>
-            <ul>
+         </ul>
+        <ul>
                 <a href="">Referencias</a>
-            </ul>
-            <ul>
+        </ul>
+        <ul>
                 <a href="">Integrantes</a>
-            </ul>
+        </ul>
+
         </nav>
     </div>
   )

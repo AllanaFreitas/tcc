@@ -14,9 +14,14 @@ export default {
       'orange': '#FF5816',
       'text-orange': '#FF672B',
       'text-spaceblue': '#64AEFF',
-      
+      /* as cores dos textos */
 
     },
+
+    fontFamily: {
+      'kulim': '"Kulim Park"',
+      
+    }
 
   },
   plugins: [],
