@@ -4,11 +4,11 @@ import IconeJanela from '../public/IconeJanela.png'
 export default function Header() {
   return (
     <div>
-        <img src={IconeJanela} class='h-16 w- ' alt="icone janela logotipo" />
-        <section className='text-center'>
-        <header >
-                <nav>
-                        <ul className='display: flex justify-content: space-between  align-items: center'>
+        <img src={IconeJanela} class='' alt="icone janela logotipo" />
+       
+        <header>
+                <nav className=' justify-content flex items-center justify-between px 2.5 py-5'>
+                        <ul className=''>
                                 <li><a href="">Início</a></li>
                                 <li><a href="">Funcionamento</a></li>
                                 <li><a href="">Materiais</a></li>
@@ -17,7 +17,6 @@ export default function Header() {
                         </ul>
                 </nav>
         </header>
-        </section>
     </div>
   )
 }

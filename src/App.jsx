@@ -16,11 +16,17 @@ function App() {
 
   return (
     <>
+    <body className='bg-offwhite'>
+      
+    
     <Header />
     <Home/>
     <Funcionamento/>
-    
-      
+    <Materiais />
+    <Bibliografia />
+    <Integrantes />
+
+    </body>
     </>
   )
 }
