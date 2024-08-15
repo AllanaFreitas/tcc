@@ -1,3 +1,6 @@
+import React from 'react' 
+import Arduino from '../public/placaarduino.png'
+
 function Funcionamento() {
   return (
     <div>
