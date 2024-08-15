@@ -1,14 +1,16 @@
 import React from 'react'
 import robohome from '../public/robohome.png'
 import Pebble from '../public/Pebble.png'
+import Linha from '../public/Linha.png'
 
 export default function Home() {
   return (
     <div>
-        <section className='flex flex-col items-center'>
+        <section id="inicio" className='flex flex-col items-center'>
           <h1 className='font-kulim text-dark-blue text-6xl ,font-bold, text-center, font-bold '>
             Venha Conhecer 
           </h1>
+          <img src= {Linha} alt="" width={400} />
           <h1 className='font-kulim text-dark-blue text-6xl ,font-bold, text-center, font-bold '>a janela inteligente!</h1>
           <br />
           <br />

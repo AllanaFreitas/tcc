@@ -14,7 +14,7 @@ function Materiais() {
         <p className="font-kulim text-dark-blue font-bold text-2xl text-center">o projeto funcionar e a base dele.</p>
         <br />
 
-        <section className='w-screen px-4 py-5 flex justify-content align-items'>
+        <section id="materias" className='w-screen px-4 py-5 flex justify-content align-items'>
             <img src= {Arduino} alt="Placa arduino"  />
             <br />
             <div className=''>
