@@ -15,6 +15,7 @@ export default {
       'text-orange': '#FF672B',
       'text-spaceblue': '#64AEFF',
       'offwhite': '#E5E4E2',
+      'dark-bluu': '#215A97'
 
       /* as cores dos textos */
 
